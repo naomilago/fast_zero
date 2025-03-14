@@ -34,7 +34,7 @@ quote-style = 'single'
 pythonpath = "."
 addopts = '-p no:warnings'
 
-[tool.taskipy.tasks]
+[tool.taskipy.tasks] 
 lint = 'ruff check'
 pre_format = 'ruff check --fix'
 format = 'ruff format'
